@@ -1,0 +1,198 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #fff; /* Light gray background */
+    padding: 20px;
+    text-align: right; /* Align header text to the right */
+    margin-bottom: 20px;
+}
+nav {
+    background-color: #fff; /* light gray background */
+    /* padding: 10px 0; */
+}
+nav a {
+    text-decoration: none;
+    color: #666; /* Dark gray color for headings */
+    margin: 0 10px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 20px;
+}
+/* Header and Section Titles */
+h1 {
+    font-size: 24pt;
+}
+h2 {
+    font-size: 20pt;
+}
+h1, h2, h3 {
+    font-weight: normal; /* Remove bold font weight */
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+.contact-info img {
+    max-width: 150px; /* adjust image width as needed */
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px; /* adjust margin as desired */
+    /* border-radius: 50%; */
+}
+.contact-info p {
+    margin: 0;
+}
+.social-media-links a {
+    margin-right: 10px;
+}
+.social-media-links img {
+    width: 25px; /* Adjust the width of the images */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 0px; /* Reduce spacing between the images */
+    margin-left: 0px; /* Reduce spacing between the images */
+}
+.news-list li {
+    margin-bottom: 10px; /* Adjust the margin bottom as needed */
+}
+.publication {
+line-height: 1.5; /* adjust line height as needed */
+margin-bottom: 20px; /* add space between publications */
+}
+.publication h3,
+.publication p {
+    margin: 0; /* remove default margin */
+}
+
+.publication-container {
+    display: flex;
+    align-items: center;
+}
+
+.publication-image {
+    margin-right: 20px; /* Adjust spacing between image and content */
+}
+
+.publication-image img {
+    width: 125px; /* Adjust image width as needed */
+    height: auto;
+}
+
+#talks {
+    padding: 20px;
+}
+
+.talk {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.talk-image {
+    margin-right: 20px; /* Adjust spacing between image and content */
+}
+
+.talk-image img {
+    width: 125px; /* Adjust image width as needed */
+    height: auto;
+}
+
+.talk-content {
+    flex-grow: 1;
+}
+
+.talk-content h3 {
+    margin-top: 0;
+}
+
+.talk-content p {
+    margin: 0; /* Remove default margin */
+    line-height: 1.5; /* Set line height to match publications section */
+}
+
+.talk-content a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.talk-content a:hover {
+    text-decoration: underline;
+}
+
+
+#teaching {
+    padding: 20px;
+}
+
+.teaching-subsection {
+    display: flex;
+    align-items: center; /* Center vertically */
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    margin-right: 20px; /* Adjust spacing */
+}
+
+.logo-container img {
+    width: 150px; /* Adjust width as needed */
+    height: auto;
+    margin-right: 10px; /* adjust margin as desired */
+    margin-left: 0px; /* adjust margin as desired */
+}
+
+.teaching-links {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.teaching-links h3 {
+    margin-top: 0;
+}
+
+.teaching-links p {
+    margin: 0px 0;
+    line-height: 1.5; /* Set line height to match publications section */
+}
+
+.teaching-links a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.teaching-links a:hover {
+    text-decoration: underline;
+}
+
+.research-subsection {
+    margin-bottom: 20px; /* Add space between subsections */
+    padding: 20px; /* Add padding to create space within the box */
+    border-radius: 5px; /* Add rounded corners to the box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    background-color: #f9f9f9; /* Slightly different background color */
+}
+
+.research-subsection h3 {
+    margin-top: 0; /* Remove default margin */
+}
+
+.research-subsection p {
+    margin-bottom: 10px; /* Add space below paragraphs */
+}
